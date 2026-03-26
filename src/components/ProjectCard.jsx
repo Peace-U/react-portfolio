@@ -1,13 +1,13 @@
 function ProjectCard({ project }) {
   return (
     <div className="project-card">
+
       <h3>{project.title}</h3>
+
       <p>{project.description}</p>
 
       <div>
-        <a href={project.live} target="_blank" rel="noreferrer">
-          Live Demo
-        </a>
+        <a href={project.demo} target="_blank">Live Demo</a>
 
         {" | "}
 
@@ -15,6 +15,7 @@ function ProjectCard({ project }) {
           GitHub
         </a>
       </div>
+
     </div>
   );
 }

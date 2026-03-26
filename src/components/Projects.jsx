@@ -1,18 +1,17 @@
-const projects = [
-  {
-    title: "Weather App",
-    description: "Weather forecast app using API",
-    image: "/assets/weather.png",
-    live: "https://your-weather-app.vercel.app",
-    github: "https://github.com/Peace-U/weather-app"
-  },
-  {
-    title: "Todo List",
-    description: "Task manager built with JavaScript",
-    image: "/assets/todo.png",
-    live: "https://your-todo-app.vercel.app",
-    github: "https://github.com/Peace-U/todo-app"
-  }
-];
+import projects from "../data/Projects";
+import ProjectCard from "./ProjectCard";
 
-export default projects;
+function Projects() {
+  return (
+    <section>
+      <h2>Projects</h2>
+
+      {projects.map((project, index) => (
+        <ProjectCard key={index} project={project} />
+      ))}
+
+    </section>
+  );
+}
+
+export default Projects;
