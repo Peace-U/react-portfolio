@@ -1,16 +1,26 @@
-# React + Vite
+🚀 Digital Portfolio & Technical Showcase
+Live Site: <https://react-portfolio-xi-ten-11.vercel.app/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A professional, high-performance digital portfolio built with React and Vite, designed to showcase my journey from Global Operations Leadership to Software Engineering. This site serves as a central hub for my technical projects, AI-augmented workflows, and professional philosophy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Technical Architecture
+Framework: React for component-based UI architecture.
 
-## React Compiler
+Build Tool: Vite for lightning-fast Hot Module Replacement (HMR) and optimized production builds.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Deployment: Hosted on Vercel with a continuous integration (CI/CD) pipeline.
 
-## Expanding the ESLint configuration
+Responsive Design: Engineered with a mobile-first approach, ensuring a seamless experience across all screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Key Features
+Project Gallery: Integrated links to live demos and source code for my full-stack applications.
+
+AI-Assisted Logic: Refined UI components and optimized asset loading using Generative AI (Claude/ChatGPT).
+
+Clean Code Architecture: Organized folder structure separating components, assets, and styling for long-term scalability.
+
+Tech Stack
+Frontend: React, JavaScript (ES6+), CSS3
+
+Tools: Git, GitHub, Vercel, VS Code
